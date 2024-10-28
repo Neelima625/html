@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+    <center>
+    <Form action="../form.txt">
+   <fieldset><legend>login using patterns</legend>
+<label for="First name">First name</label></span><input type="text" name="first name" id="" required pattern="[a-zA-Z]{3,15}"><br> <br>
+<label for="last name">last name</label><input type="text" name="last name" id="" required pattern="[a-z]{3,15}"><br><br>
+<label for="email">email</label><input type="email" name="email" id="" required pattern="[A-Za-z_-@#$]+@[a-z]+.[a-z]{2,}"><br><br>
+<label for="password">password</label><input type="password" name="password" id="" required pattern="(?=.[a-z]{3})(?=.[A-C]{3})(?=.*@#${2})(a-zA-Z@#${2})(a-zA-Z@#${8,15})"><br><br>
+<label for="conform password">conform password</label><input type="password" name="conform password" id="" required pattern="(?=.[a-z]{3})(?=.[A-C]{3})(?=.*@#${2})(a-zA-Z@#${2})(a-zA-Z@#${8,15})"><br><br>
+<button type="submit">submit</button>
+   </fieldset> 
+</center>   
+</Form>
+</body>
+</html>
